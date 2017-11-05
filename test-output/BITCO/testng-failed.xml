@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [BITCO]" parallel="tests">
+  <test name="BITCO ONE(failed)" parallel="tests">
+    <classes>
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier3">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setup"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier3 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier4">
+        <methods>
+          <include name="setup"/>
+          <include name="aaasetUp"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier4 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier1">
+        <methods>
+          <include name="setup"/>
+          <include name="jokerOne"/>
+          <include name="quitBrowser"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier1 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier2">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setup"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier2 -->
+    </classes>
+  </test> <!-- BITCO ONE(failed) -->
+  <test name="BITCO FOUR(failed)" parallel="tests">
+    <classes>
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier3">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setup"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier3 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier4">
+        <methods>
+          <include name="setup"/>
+          <include name="jokerOne"/>
+          <include name="aaasetUp"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier4 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier1">
+        <methods>
+          <include name="setup"/>
+          <include name="quitBrowser"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier1 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier2">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setup"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier2 -->
+    </classes>
+  </test> <!-- BITCO FOUR(failed) -->
+  <test name="BITCO TWO(failed)" parallel="tests">
+    <classes>
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier3">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setup"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier3 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier4">
+        <methods>
+          <include name="setup"/>
+          <include name="aaasetUp"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier4 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier1">
+        <methods>
+          <include name="setup"/>
+          <include name="quitBrowser"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier1 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier2">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setup"/>
+          <include name="jokerOne"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier2 -->
+    </classes>
+  </test> <!-- BITCO TWO(failed) -->
+  <test name="BITCO THREE(failed)" parallel="tests">
+    <classes>
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier3">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setup"/>
+          <include name="jokerOne"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier3 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier4">
+        <methods>
+          <include name="setup"/>
+          <include name="aaasetUp"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier4 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier1">
+        <methods>
+          <include name="setup"/>
+          <include name="quitBrowser"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier1 -->
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier2">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setup"/>
+          <include name="aaasetUp"/>
+        </methods>
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier2 -->
+    </classes>
+  </test> <!-- BITCO THREE(failed) -->
+</suite> <!-- Failed suite [BITCO] -->

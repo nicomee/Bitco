@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1385289" started-at="2017-11-04T15:00:44Z" finished-at="2017-11-04T15:23:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1385289" started-at="2017-11-04T15:00:44Z" finished-at="2017-11-04T15:23:49Z">
+      <class name="com.scraper.BitcoinScrapper.BitcoVerifier1">
+        <test-method status="PASS" signature="aaasetUp(org.testng.ITestContext)[pri:0, instance:com.scraper.BitcoinScrapper.BitcoVerifier1@5034c75a]" name="aaasetUp" is-config="true" duration-ms="29" started-at="2017-11-04T08:00:44Z" finished-at="2017-11-04T08:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@70f02c32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaasetUp -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.scraper.BitcoinScrapper.BitcoVerifier1@5034c75a]" name="setup" is-config="true" duration-ms="8546" started-at="2017-11-04T08:00:44Z" finished-at="2017-11-04T08:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="jokerOne(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scraper.BitcoinScrapper.BitcoVerifier1@5034c75a]" name="jokerOne" duration-ms="615544" started-at="2017-11-04T08:00:53Z" data-provider="data" finished-at="2017-11-04T08:11:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DENIS_PETER_QUAID\FRONT.jpg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DENIS_PETER_QUAID\BACK.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[67.212.238.217:10703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jokerOne -->
+        <test-method status="PASS" signature="jokerOne(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scraper.BitcoinScrapper.BitcoVerifier1@5034c75a]" name="jokerOne" duration-ms="92913" started-at="2017-11-04T08:11:08Z" data-provider="data" finished-at="2017-11-04T08:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MATHEW_TIMOTHY_RANDALL\FRONT.jpg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MATHEW_TIMOTHY_RANDALL\BACK.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[67.212.238.217:10703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jokerOne -->
+        <test-method status="PASS" signature="jokerOne(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scraper.BitcoinScrapper.BitcoVerifier1@5034c75a]" name="jokerOne" duration-ms="39572" started-at="2017-11-04T08:12:41Z" data-provider="data" finished-at="2017-11-04T08:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WALLACE_JOHN_ALLEN\FRONT.jpg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WALLACE_JOHN_ALLEN\BACK.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[67.212.238.217:10703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jokerOne -->
+        <test-method status="PASS" signature="jokerOne(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scraper.BitcoinScrapper.BitcoVerifier1@5034c75a]" name="jokerOne" duration-ms="567678" started-at="2017-11-04T08:13:21Z" data-provider="data" finished-at="2017-11-04T08:22:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DENIS_PETER_QUAID\FRONT.jpg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DENIS_PETER_QUAID\BACK.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[67.212.238.217:10703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jokerOne -->
+        <test-method status="PASS" signature="jokerOne(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scraper.BitcoinScrapper.BitcoVerifier1@5034c75a]" name="jokerOne" duration-ms="57557" started-at="2017-11-04T08:22:48Z" data-provider="data" finished-at="2017-11-04T08:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FRANK_WALTER_ARIAN\FRONT.jpg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FRANK_WALTER_ARIAN\BACK.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[67.212.238.217:10703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jokerOne -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.scraper.BitcoinScrapper.BitcoVerifier1@5034c75a]" name="quitBrowser" is-config="true" duration-ms="3299" started-at="2017-11-04T08:23:46Z" finished-at="2017-11-04T08:23:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.scraper.BitcoinScrapper.BitcoVerifier1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

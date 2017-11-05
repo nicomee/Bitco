@@ -1,0 +1,321 @@
+<html>
+<head>
+<title>TestNG:  BITCO TWO</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BITCO TWO</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/40</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 03 11:55:33 GMT-07:00 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (444 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.setup()'><b>setup</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2</td>
+<td><div><pre>java.lang.Exception: File creation failed
+	at com.scraper.BitcoinScrapper.BitcoVerifier2.setup(BitcoVerifier2.java:55)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1283050241", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1283050241'><pre>java.lang.Exception: File creation failed
+	at com.scraper.BitcoinScrapper.BitcoVerifier2.setup(BitcoVerifier2.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 41, VINCENT_RONALD_CARTER/NH008.jpg, VINCENT_RONALD_CARTER/NH007.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 42, ASHISH_RONALD_GUPTA/NH094.jpg, ASHISH_RONALD_GUPTA/NH093.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 43, ATULKUMAR_CLAUDETTE_SUCHAK/My DL Front 7.jpeg, ATULKUMAR_CLAUDETTE_SUCHAK/My DL Back 7.jpeg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 44, ATULKUMAR_CLAUDETTE_SUCHAK/NH042.jpg, ATULKUMAR_CLAUDETTE_SUCHAK/NH041.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 45, BRADFORD_ELQUI_NORTON/NH212.jpg, NH_Scans/bitco.xls, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 46, BRYAN_GONZALO_ROBERTS/NH207.jpg, BRADFORD_ELQUI_NORTON/NH217.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 47, CHRISTOPHER_FRANCIS_AXTELL/My DL Back 6.jpeg, BRYAN_GONZALO_ROBERTS/NH225.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 48, CHRISTOPHER_JOHN_ANTOS/NH097.jpg, CHRISTOPHER_FRANCIS_AXTELL/My DL Front 6.jpeg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 49, CHUCK_ORING_STAJER/NH088.jpg, CHRISTOPHER_JOHN_ANTOS/NH098.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 50, CLAIRE_MICHAEL_PICARDAT/NH177.jpg, CHUCK_ORING_STAJER/NH089.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 51, CY_MICHAEL_GILBERT/NH0002.jpg, CLAIRE_MICHAEL_PICARDAT/NH179_2.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 52, DAMON_ALLAN_GIL/NH001.jpg, CY_MICHAEL_GILBERT/NH0003.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 53, DARREN_JOSEPH_FERRARA/NH065.jpg, DAMON_ALLAN_GIL/NH002.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 54, DARYL_ALBERT_ALLAMAN/NH0011.jpg, DARREN_JOSEPH_FERRARA/NH066.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 55, DAVID_DALE_SUTTON/NH032.jpg, DARYL_ALBERT_ALLAMAN/NH0012.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 56, DAVID_KEVIN_MARKS/NH206.jpg, DAVID_DALE_SUTTON/NH033.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 57, DEAN_GAIL_THOMAS/NH035.jpg, DAVID_KEVIN_MARKS/NH224.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 58, DEWITT_CARLA_PRESCOTT/NH209.jpg, DEAN_GAIL_THOMAS/NH036.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 59, DOUG_EDWIN_GRAVINK/NH177_2.jpg, DEWITT_CARLA_PRESCOTT/NH223.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 60, EDDIE_KLINE_LAU/NH118.jpg, DOUG_EDWIN_GRAVINK/NH179.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 61, EDWARD_MICHEL_LEONARD/NH239.jpg, EDDIE_KLINE_LAU/NH119.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 62, ELISE_JAMES_PERACHIO/NH174.jpg, EDWARD_MICHEL_LEONARD/NH241.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 63, EMILY_MARIANNE_SCHIRMER/NH0004.jpg, ELISE_JAMES_PERACHIO/NH175_2.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 64, ERIK_SCOTT_ANDERSON/NH026.jpg, EMILY_MARIANNE_SCHIRMER/NH0005.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 65, EVAN_KADER_SILVERBERG/NH0013.jpg, ERIK_SCOTT_ANDERSON/NH027.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 66, GARY_JOSEPH_WHITEHOUSE/My DL Back 4.jpg, EVAN_KADER_SILVERBERG/NH0014.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 67, GARY_REID_HEWITT/NH120.jpg, GARY_JOSEPH_WHITEHOUSE/My DL Front 4.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 68, GREGORY_JOSEPH_HARRIS/NH0009.jpg, GARY_REID_HEWITT/NH121.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 69, HARRY_MANUEL_SAMKANGE/NH238.jpg, GREGORY_JOSEPH_HARRIS/NH0010.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 70, HEATHER_ALLEN_SMITH/NH045.jpg, HARRY_MANUEL_SAMKANGE/NH240.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 71, HSIAO_WEN_LIN/NH047.jpg, HEATHER_ALLEN_SMITH/NH046.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 72, IAN_HENRY_WRIGHT/My DL Back 3.jpg, HSIAO_WEN_LIN/NH048.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 73, IGOR_JOE_KUNITSA/NH124.jpg, IAN_HENRY_WRIGHT/My DL Front 3.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 74, JAKE_CESAR_FARBER/NH069.jpg, IGOR_JOE_KUNITSA/NH125.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 75, JAMES_ALLEN_RATTI/NH235.jpg, JAKE_CESAR_FARBER/NH070.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 76, JAMES_HILARIO_LEWALLEN/NH139.jpg, JAMES_ALLEN_RATTI/NH237.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 77, JARMO_JAMES_PAUKKUNEN/NH0007.jpg, JAMES_HILARIO_LEWALLEN/NH140.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 78, JASON_ANN_BERNARD/My DL Back 5.jpg, JARMO_JAMES_PAUKKUNEN/NH0008.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 79, JEFFREY_COLBERT_WELSH/NH015.jpg, JASON_ANN_BERNARD/My DL Front 5.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+<tr>
+<td title='com.scraper.BitcoinScrapper.BitcoVerifier2.jokerOne()'><b>jokerOne</b><br>Test class: com.scraper.BitcoinScrapper.BitcoVerifier2<br>Parameters: 80, JESSE_CRAIG_REID/NH.jpg, JEFFREY_COLBERT_WELSH/NH016.jpg, 209.95.50.204:46807, Yes</td>
+<td></td>
+<td>0</td>
+<td>com.scraper.BitcoinScrapper.BitcoVerifier2@39aeed2f</td></tr>
+</table><p>
+</body>
+</html>
